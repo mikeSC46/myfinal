@@ -1,0 +1,67 @@
+/* Style definition 1 */
+body {
+    color: #FF0000; /* Red font color */
+    font-family: Arial, sans-serif, 'Times New Roman', Times, serif; /* Font family */
+    font-size: 15px;
+  }
+  
+  /* Style definition 2 */
+  li {
+    color: #00FF00; /* Green font color */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Font family */
+  }
+  
+  /* Style definition 3 */
+  a {
+    color: #0000FF; /* Blue font color */
+    font-family: "Times New Roman", Times, serif; /* Font family */
+  }
+  
+  /* Style definition 4 */
+  .my-style-4 {
+    color: #FFA500; /* Orange font color */
+    font-family: "Courier New", Courier, monospace; /* Font family */
+  }
+  
+  /* Three divs with different styles */
+  .my-div-1 {
+    position: relative; /* Positioning */
+    top: 50px;
+    left: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: #EEE; /* Background color */
+    padding: 10px; /* Padding */
+    border: 1px solid #000; /* Border */
+    /* Apply style definition 1 */
+    /* Font color and font family */
+    color:  #FF0000;
+  }
+  
+  .my-div-2 {
+    position: absolute; /* Positioning */
+    top: 100px;
+    right: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: #DDD; /* Background color */
+    padding: 20px; /* Padding */
+    border: 2px dashed #00F; /* Border */
+    /* Apply style definition 2 */
+    /* Font color and font family */
+    color:  #00FF00;
+  }
+  
+  .my-div-3 {
+    position: fixed; /* Positioning */
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: #CCC; /* Background color */
+    padding: 5px; /* Padding */
+    /* Apply style definition 3 */
+    /* Font color and font family */
+    color: #0000ff;
+  }
+  
